@@ -207,7 +207,7 @@ searchApp.controller("deviceCompController",['$scope','$log','$http', function($
 
 searchApp.controller('searchInitController',['$rootScope','$scope','$location','$log','$http','$window','$compile', function($rootScope,$scope,$location,$log,$http,$window,$compile){
 
-		$http.get('resources/fixtures/testData.json').success(function(data){
+		$http.get('testData.json').success(function(data){
 		$scope.response = data;
 		$scope.searchCount = $scope.response.total;
 		$scope.activeTab = $scope.response.type.toLowerCase();

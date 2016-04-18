@@ -147,7 +147,7 @@ searchApp.directive("filterComponent",function(){
 			//console.log(scope.selectedPay);
 		}
 	},
-	templateUrl: 'filtersComponent.html'
+	templateUrl: 'filterComponent.html'
 }
 });
 

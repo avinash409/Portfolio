@@ -126,7 +126,7 @@ searchApp.directive("deviceComponent", function(){
 			}
 		},true);
 	},
-	templateUrl: 'templates/searchApp/deviceComponent.html',
+	templateUrl: 'deviceComponent.html',
 	controller:'deviceCompController'
 }
 });
@@ -147,7 +147,7 @@ searchApp.directive("filterComponent",function(){
 			//console.log(scope.selectedPay);
 		}
 	},
-	templateUrl: 'templates/searchApp/filtersComponent.html'
+	templateUrl: 'filtersComponent.html'
 }
 });
 
